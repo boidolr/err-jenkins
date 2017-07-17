@@ -1,14 +1,17 @@
 language: python
 
+cache: pip
+
 python:
-  - 2.7
-  - 3.3
-  - 3.4
+# disable while travisci is failing package installations
+#  - 2.7
+#  - 3.3
+#  - 3.4
   - 3.5
+  - 3.6
 
 install:
-  - pip install -q errbot pytest pytest-pep8 pytest-cov coveralls --use-wheel
-  - pip install -qr requirements.txt --use-wheel
+  - pip install -qr requirements-test.txt
 
 script:
   - py.test --cov jenkinsBot
