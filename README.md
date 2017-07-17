@@ -1,6 +1,6 @@
 # err-jenkins - Jenkins plugin for Err
 
-[![Build Status](https://travis-ci.org/Djiit/err-jenkins.svg?branch=master)](https://travis-ci.org/Djiit/err-jenkins) [![Coverage Status](https://coveralls.io/repos/github/Djiit/err-jenkins/badge.svg?branch=master)](https://coveralls.io/github/Djiit/err-jenkins?branch=master)
+[![Build Status](https://travis-ci.org/boidolr/err-jenkins.svg?branch=master)](https://travis-ci.org/boidolr/err-jenkins) [![Coverage Status](https://coveralls.io/repos/github/boidolr/err-jenkins/badge.svg?branch=master)](https://coveralls.io/github/boidolr/err-jenkins?branch=master)
 
 Err-jenkins is a plugin for [Err](https://github.com/gbin/err) that allows you to interact with [Jenkins](http://jenkins-ci.org), a continuous integration tool.
 
@@ -92,4 +92,4 @@ properties(properties:[[
 ```
 ## Credits
 
-This plugin is based on the original work by [benvd](https://github.com/benvd/err-jenkins).
+This plugin is based on the original work by [benvd](https://github.com/benvd/err-jenkins) and [Djiit](https://github.com/Djiit/err-jenkins).
